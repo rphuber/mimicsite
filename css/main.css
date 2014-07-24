@@ -18,15 +18,22 @@
 }
 
 .cotext {
-  float:left;
+  position:absolute;
   top:135px;
   left:145px;
 
 }
 
 .cotext h1 {
+  clear:inline-block;
   font-size:3em;
   font-weight:normal;
+  margin:0;
+  padding:0;
+}
+
+.cotext p {
+  margin:165px;
 }
 
 .heroImage {
@@ -231,7 +238,7 @@
 
 .links {
   display:inline-block;
-  width:24.67%;
+  width:24.5%;
 }
 
 .linkshover {
@@ -263,6 +270,10 @@
   color:black;
   font-weight:normal;
   font-size:1.4em;
+}
+
+.linkimagetext p:hover {
+  color:white;
 }
 
 .footer {
