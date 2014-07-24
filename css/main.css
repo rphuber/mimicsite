@@ -1,0 +1,307 @@
+.container {
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color:rgba(25,25,200,1);
+  width:100%;
+  margin-bottom: -1px;
+  padding:0;
+  position:relative;
+}
+
+.cotext {
+  position: absolute;
+  top:135px;
+  left:145px;
+
+}
+
+.cotext h1 {
+  font-size:3em;
+  font-weight:normal;
+}
+
+.heroImage {
+  width:100%;
+  opacity:.6;
+}
+
+.heroLogo {
+  position:absolute;
+  top:5px;
+  left:140px;
+  padding-top:5px;
+}
+
+.heroLogo img {
+  width:5%;
+  display:inline;
+  vertical-align: middle;
+  margin:0;
+  padding:0;
+}
+
+.hero p {
+  display:inline;
+  veritcal-align:top;
+  text-transform: uppercase;
+}
+
+.heroNav {
+  position:absolute;
+  top:5px;
+  right:70px;
+  width:250px;
+}
+
+.nav li {
+  display:inline;
+  list-style:none;
+  margin:5px;
+}
+
+.nav a {
+  text-decoration:none;
+  color:black;
+}
+
+.content {
+  background-color:white;
+  padding-top:75px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.mainPost {
+  float:left;
+  width:60%;
+  vertical-align:top;
+
+}
+
+.mainPost h2 {
+  margin-bottom:10px;
+
+}
+
+.postInfo img {
+  display:inline-block;
+  vertical-align:middle;
+  width:5%;
+  border-radius:100%;
+  margin-bottom:10px;
+}
+
+.postInfo p {
+  display:inline-block;
+  vertical-align:middle;
+  margin-left:5px;
+  font-size:.75em;
+  padding-bottom:5px;
+  color:grey;
+}
+
+.postInfo .authorName {
+  color:blue;
+}
+
+.postInfo a {
+  text-decoration:none;
+  color:grey;
+}
+
+.postContent p {
+  font-size: .75em;
+}
+
+.postContent blockquote {
+  padding:5px;
+  color:blue;
+  border-left:2px solid grey;
+}
+
+.sidebar {
+  float:right;
+  box-sizing:border-box;
+  width:40%;
+  vertical-align:top;
+  text-align:center;
+}
+
+.sidebar p {
+  margin-top:1px;
+  margin-bottom:1px;
+}
+
+.socmed{
+  clear:both;
+  margin-top:1px;
+}
+
+.socmed img {
+  height:75px;
+  margin-top:10px;
+  margin-bottom:1px;
+  border-radius:100%;
+}
+
+.socmed a {
+  margin:0 10px;
+}
+
+
+.ad .adimage {
+  width:100%;
+  opacity:.7;
+}
+
+.adimage img {
+  width:100%;
+}
+
+.hover {
+  float:right;
+  background-color: rgba(0,0,255,1);
+
+}
+
+.ad .adimage:hover {
+  opacity:1;
+}
+
+.ad {
+  display:inline-block;
+  clear:both;
+  text-align:center;
+  margin:10px 10%;
+  }
+
+.ad p {
+  text-align: end;
+}
+
+.sidebarSection {
+  padding: 0 48px;
+}
+
+.sidebarSection h2 {
+  font-size: .9em;
+  font-family: MyriadPro-condensed, 'Myriad Pro Condensed', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  color:blue;
+  text-align:left;
+}
+
+.sidebarSection p {
+  font-size:.75em;
+  color:grey;
+  text-align:left;
+
+}
+
+.linksHeader {
+  display: block;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  padding-top:40px;
+}
+
+.linksHeader h2 {
+  font-size: 1.9em;
+  font-family: MyriadPro-condensed, 'Myriad Pro Condensed', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+.linksimagecontain {
+  display:inline-block;
+  width:100%
+  padding:0;
+  margin:0;
+  text-align: center;
+}
+
+.links {
+  display:inline-block;
+  width:24.67%;
+}
+
+.linkshover {
+  position:relative;
+  background-color: rgba(0,0,255,1);
+}
+
+.links .linksimage {
+  width:100%;
+  opacity:.7;
+}
+
+.linksimage img {
+  width:100%;
+}
+
+.links .linksimage:hover {
+  opacity:1;
+}
+
+.linkimagetext {
+  position:absolute;
+  bottom:-20px;
+  left:5px;
+}
+
+.linkimagetext p {
+  font-family:font-family: MyriadPro-condensed, 'Myriad Pro Condensed', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+  color:black;
+  font-weight:normal;
+  font-size:1.4em;
+}
+
+.footer {
+  position:relative;
+  width:100%;
+  background-color: #083452;
+}
+
+.footer img {
+  display:inline-block;
+  width:5%;
+  vertical-align: middle;
+  margin-left:50px;
+}
+
+.footer p {
+  display:inline-block;
+  vertical-align: middle;
+  color:grey;
+}
+
+.footnav {
+  float:right;
+  margin-right: 10%;
+}
+
+.footnav li {
+  display:inline;
+  color:grey;
+}
+
+.footnav a {
+  text-decoration:none;
+}
+
+.footnav a:hover {
+  color:blue;
+}
+
+.footnav {
+  vertical align:none;
+}
