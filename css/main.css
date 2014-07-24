@@ -18,7 +18,7 @@
 }
 
 .cotext {
-  position: absolute;
+  float:left;
   top:135px;
   left:145px;
 
