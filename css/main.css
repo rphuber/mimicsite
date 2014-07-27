@@ -1,3 +1,13 @@
+.body {
+  margin-left:0;
+  margin-right:0;
+  margin:0;
+}
+
+img {
+  margin-bottom:0;
+}
+
 .container {
   width:100%;
   min-width:800px;
@@ -6,15 +16,24 @@
   font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
 }
 
+
+
 * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin-left:0;
+  margin-right:0;
+}
+
+div {
+  margin-bottom:0;
+  padding-bottom:0;
 }
 
 .hero {
   background-color:rgba(25,25,200,1);
   width:100%;
-  margin-bottom: -1px;
+  padding-bottom: -6px;
   padding:0;
   position:relative;
 }
@@ -22,7 +41,7 @@
 .cotext {
   position:absolute;
   top:135px;
-  left:145px;
+  left:23%;
 
 }
 
@@ -32,6 +51,7 @@
   font-weight:normal;
   margin:0;
   padding:0;
+  color:white;
 }
 
 .cotext p {
@@ -74,7 +94,9 @@
 .nav li {
   display:inline;
   list-style:none;
-  margin:5px;
+  margin-left:5px;
+  margin-right:5px;
+
 }
 
 .nav a {
@@ -97,8 +119,12 @@
 }
 
 .mainPost h2 {
-  margin-bottom:10px;
 
+
+}
+
+li {
+  margin: 0;
 }
 
 .postInfo img {
@@ -313,8 +339,4 @@
 
 .footnav a:hover {
   color:blue;
-}
-
-.footnav {
-  vertical align:none;
 }
